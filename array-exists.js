@@ -10,6 +10,21 @@ function megeFriend(friends) {
     }
     return mega;
 }
-const friends = ['Kutub', 'Liton', 'Shamol', 'Sabbir'];
+const friends = ['Kutub', 'Lion', 'Shamol', 'Sabbir'];
 const myBigbuddy = megeFriend(friends);
-console.log(myBigbuddy);
+// console.log(myBigbuddy);
+
+//indexof
+
+if (friends.indexOf('Lion') != -1) {
+    // console.log('lion is exist');
+}
+//includes
+if (friends.includes('Lion')) {
+    console.log('lion is exits');
+}
+//concatinate
+const first = [1, 3, 5];
+const second = [2, 4, 6];
+const combined = first.concat(second);
+console.log(combined);
