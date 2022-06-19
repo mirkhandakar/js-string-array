@@ -3,4 +3,6 @@ const numberSliced = numbers.slice(3, 7);
 // console.log(numberSliced);
 // console.log(numbers);
 
-cons
+const numberSliced2 = numbers.splice(3, 2);
+console.log(numberSliced2);
+console.log(numbers);
